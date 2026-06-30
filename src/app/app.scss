@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  min-height: 100dvh;
+  background: #0b1f5c;
+}
+
+.app-shell {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
